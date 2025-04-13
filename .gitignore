@@ -1,0 +1,23 @@
+# File .gitignore untuk proyek Streamlit + Gemini
+
+# Environment
+.env
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Sistem
+.DS_Store  # (Mac)
+Thumbs.db  # (Windows)
